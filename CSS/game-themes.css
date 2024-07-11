@@ -1,0 +1,80 @@
+.game-box .game-theme {
+    width: 100%;
+    height: 228px;
+    border: 2px solid #000;
+    margin-block: 1em;
+    border-radius: 1em;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.game-box .game-theme .theme-box {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background-image 0.3s ease-in-out;
+}
+
+.game-box .game-theme .theme-box-mp4 {
+    /* height: 100%; */
+    width: 100%;
+    margin-right: 10px;
+}
+
+.slider-1 .game-banner {
+    background-image: url("../IMAGES/game-themes/Hide&Seek/main-game-banner.png");
+}
+
+.slider-2 .game-banner {
+    background-image: url("../IMAGES/game-themes/CityJump/CJ.png");
+}
+
+.slider-3 .game-banner {
+    background-image: url("../IMAGES/game-themes/EscapeCastle/EC.png");
+}
+
+.slider-4 .game-banner {
+    background-image: url("../IMAGES/game-themes/FindMe/FindMeBanner.png");
+}
+
+.slider-5 .game-banner {
+    background-image: url("../IMAGES/game-themes/RPS/RPS-thumbnail.png");
+}
+
+.game-box .game-theme .H-S-game-png {
+    background-image: url("../IMAGES/game-themes/Hide&Seek/main-game-banner.png");
+}
+
+.game-box .game-theme .RPS-game-png {
+    background-image: url("../IMAGES/game-themes/RPS/RPS-thumbnail.png");
+}
+
+.game-box .game-theme .GTF-game-png {
+    background-image: url("../IMAGES/game-themes/Quiz/GTF/GTF.png");
+}
+
+.game-box .game-theme .GTM-game-png {
+    background-image: url("../IMAGES/game-themes/Quiz/GTM/GTM.gif");
+}
+
+.game-box .game-theme .EC-game-png {
+    background-image: url("../IMAGES/game-themes/EscapeCastle/EC.png");
+}
+
+.game-box .game-theme .CJ-game-png {
+    background-image: url("../IMAGES/game-themes/CityJump/CJ.png");
+}
+
+.game-box .game-theme .TD-game-png {
+    background-image: url("../IMAGES/game-themes/TowerDefence/TD.png");
+}
+
+.game-box .game-theme .FM-game-png {
+    background-image: url("../IMAGES/game-themes/FindMe/FindMe.png");
+}
+
+.game-box .game-theme .shooter-game-png {
+    background-image: url("../IMAGES/game-themes/Shooter.io/shooter.png");
+}
