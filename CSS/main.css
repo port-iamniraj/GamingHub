@@ -4,16 +4,16 @@
     padding-top: 75px;
 }
 
-.games-container-wrap {
-    position: relative;
-    margin-bottom: 6rem;
-}
-
 .game-category {
     font-size: 2.5rem;
     width: 80%;
     margin-inline: auto;
     padding-left: 30px;
+}
+
+.games-container-wrap {
+    position: relative;
+    margin-bottom: 6rem;
 }
 
 .games-container {

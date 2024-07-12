@@ -1,0 +1,102 @@
+@media (max-width: 480px) {
+    .navbar .navbar-items {
+        display: none;
+    }
+
+    .logo {
+        margin-inline: auto;
+        width: 200px;
+    }
+
+    .slider-container {
+        padding-top: 15vh;
+    }
+
+    .slider-container .slider-container-background {
+        height: 80vh;
+        width: 80%;
+    }
+
+    .slider-container .slider {
+        display: block;
+    }
+
+    .active-slider {
+        transform: translate(-7px, -7px);
+    }
+
+    .slider-container .slider .game-banner {
+        width: 100%;
+        height: 45vh;
+    }
+
+    .slider-container .slider .game-info {
+        width: 100%;
+        /* height: 45vh; */
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    .slider-container .slider .game-info .banner-play-box {
+        display: none;
+    }
+
+    .slider-container .slider-bars {
+        display: none;
+    }
+
+    #main {
+        padding-top: 10px;
+    }
+
+    .game-category {
+        width: 80%;
+    }
+
+    .games-container-wrap {
+        margin-bottom: 3em;
+    }
+
+    .games-container {
+        border: none;
+        width: 79%;
+    }
+
+    .games-container-wrap:hover .games-container {
+        border: none;
+    }
+
+    .games-container-wrap .slider-button {
+        display: none;
+    }
+}
+
+/* Target medium phones only */
+@media (min-width: 481px) and (max-width: 600px) {
+    /* Styles for medium phones */
+}
+
+/* Target tablets in portrait mode only */
+@media (min-width: 601px) and (max-width: 768px) {
+    /* Styles for tablets in portrait mode */
+}
+
+/* Target tablets in landscape mode and small laptops only */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Styles for tablets in landscape mode and small laptops */
+}
+
+/* Target small laptops only */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    /* Styles for small laptops */
+}
+
+/* Target desktops only */
+@media (min-width: 1201px) and (max-width: 1440px) {
+    /* Styles for desktops */
+}
+
+/* Target large desktops only */
+@media (min-width: 1441px) {
+    /* Styles for large desktops */
+}
