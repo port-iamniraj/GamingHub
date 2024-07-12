@@ -5,7 +5,7 @@
 
     .logo {
         margin-inline: auto;
-        width: 200px;
+        width: 180px;
     }
 
     .slider-container {
@@ -37,6 +37,10 @@
         margin-top: 10px;
     }
 
+    .slider-container .slider .game-info .game-title {
+        font-size: 4rem;
+    }
+
     .slider-container .slider .game-info .banner-play-box {
         display: none;
     }
@@ -51,6 +55,7 @@
 
     .game-category {
         width: 80%;
+        padding-left: 0;
     }
 
     .games-container-wrap {
@@ -60,6 +65,7 @@
     .games-container {
         border: none;
         width: 79%;
+        padding-inline: 0;
     }
 
     .games-container-wrap:hover .games-container {
@@ -68,6 +74,14 @@
 
     .games-container-wrap .slider-button {
         display: none;
+    }
+
+    .game-box-background {
+        width: 100%;
+    }
+
+    .game-box {
+        transform: translateX(0) translateY(0);
     }
 }
 
